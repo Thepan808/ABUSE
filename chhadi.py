@@ -6,11 +6,6 @@ from userbot.utils import admin_cmd
 from userbot.cmdhelp import CmdHelp
 
 
-CmdHelp("chhadi").add_command(
-   'dm', None, 'Reply To Anymessage, meddia'
-).add()
-
-
 @borg.on(admin_cmd("dm ?(.*)"))
 async def _(event):
     if event.fwd_from:
@@ -44,3 +39,10 @@ async def _(event):
             )
         else:
             await event.edit(f"{response.message}")
+
+
+CmdHelp("chhadi").add_command(
+   'dm', None, 'Reply To Anymessage, meddia'
+).add_type(
+   'Abuse'
+).add()

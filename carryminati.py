@@ -65,4 +65,6 @@ async def _(event):
         await event.edit("Written and Created By: @MYSTERIOUS_PLUGINS ! thank you🙏🏻❤")
 CmdHelp("carryminati").add_command(
     'carry', None, 'CarryMinati'
+).add_type(
+    'Abuse'
 ).add()

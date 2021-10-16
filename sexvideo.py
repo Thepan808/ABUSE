@@ -61,4 +61,6 @@ CmdHelp("sexvideo").add_command(
   "xxlong", None, "For Long Se* Video"
 ).add_warning(
   "For 18+ only kids don't use"
+).add_type(
+  "Abuse"
 ).add()

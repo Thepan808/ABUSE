@@ -4,6 +4,8 @@ from telethon.errors.rpcerrorlist import YouBlockedUserError
 
 from . import *
 from userbot.cmdhelp import CmdHelp
+from userbot.utils import admin_cmd 
+
 
 @borg.on(admin_cmd(pattern="xxshort?(.*)"))
 async def _(event):

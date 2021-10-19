@@ -50,11 +50,11 @@ async def butts(event):
     await a.delete()
 
 CmdHelp("adultzone").add_command(
-  "boobs", None, "Sends a random boobs pic"
+  'boobs', None, 'Sends a random boobs pic'
 ).add_command(
-  "butts", None, "Sends a random Butt pic"
+  'butts', None, 'Sends a random Butt pic'
 ).add_warning(
-  "18+"
+  '18+'
 ).add_type(
-  "Abuse"
+  'Abuse'
 ).add()
